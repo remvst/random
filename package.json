@@ -1,11 +1,14 @@
 {
-  "name": "@remvst/random",
-  "version": "1.0.0",
-  "description": "Simple fast random helper functions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Rémi Vansteelandt",
-  "license": "UNLICENSED"
+    "name": "@remvst/random",
+    "version": "2.0.0",
+    "description": "Simple fast random helper functions",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "Rémi Vansteelandt",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "typescript": "^4.1.3"
+    }
 }
